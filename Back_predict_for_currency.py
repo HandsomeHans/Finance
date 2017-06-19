@@ -109,6 +109,7 @@ for r_day in range(nrows_day-1, 1, -1):
                     blsp += 1
         else:
             break
+
     if bp != 0 or sp != 0:
         bp_day.append(bp)
         sp_day.append(sp)
